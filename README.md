@@ -1,2 +1,3 @@
 # web-dev-bootstrap
-Web development projects based on javascript
+Web development projects based on bootstrap!
+
