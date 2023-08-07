@@ -1,0 +1,91 @@
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+a {
+    font-size: 0.6rem;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+input {
+    width: 22rem;
+}
+
+input:hover {
+    outline: none;
+}
+
+.responsive__nav  {
+    position: absolute;
+    top: 2.6rem;
+    right: 0.8rem;
+    z-index: 99;
+    background: #f5f5f5;
+    list-style-type: none;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.6rem;
+    font-weight: 200;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+#gradient {
+    background: linear-gradient(to right, white 70%, #ffdd63 30%);
+}
+
+@media screen and (max-width: 768px) {
+    input {
+        width: 100%;
+    }
+
+    #gradient {
+        margin-top: 1rem;
+        background: #ffdd63;
+    }
+}
+
+.bg-purple {
+    background: mediumpurple;
+}
+
+.nav > .nav-item > .nav-link {
+    color: gray;
+    font-size: 0.7rem;
+}
+
+.btn {
+    font-size: 0.6rem;
+    padding: 0.6rem 1.4rem;
+} 
+
+.btn-info {
+    background: mediumpurple;
+}
+
+.btn-info:hover {
+    background: mediumpurple;
+
+}
+
+.btn-light {
+    background: none;
+}
+
+.text-muted {
+    font-size: 0.8rem;
+}
+
+.list-group-item {
+    background: transparent;
+}
